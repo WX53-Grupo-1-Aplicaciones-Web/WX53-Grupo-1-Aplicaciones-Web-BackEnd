@@ -1,0 +1,12 @@
+C:\Users\Alessandro\RiderProjects\Artisania\3.Data\bin\Debug\net7.0\3.Data.deps.json
+C:\Users\Alessandro\RiderProjects\Artisania\3.Data\bin\Debug\net7.0\3.Data.dll
+C:\Users\Alessandro\RiderProjects\Artisania\3.Data\bin\Debug\net7.0\3.Data.pdb
+C:\Users\Alessandro\RiderProjects\Artisania\3.Data\obj\Debug\net7.0\3.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alessandro\RiderProjects\Artisania\3.Data\obj\Debug\net7.0\3.Data.AssemblyInfoInputs.cache
+C:\Users\Alessandro\RiderProjects\Artisania\3.Data\obj\Debug\net7.0\3.Data.AssemblyInfo.cs
+C:\Users\Alessandro\RiderProjects\Artisania\3.Data\obj\Debug\net7.0\3.Data.csproj.CoreCompileInputs.cache
+C:\Users\Alessandro\RiderProjects\Artisania\3.Data\obj\Debug\net7.0\3.Data.dll
+C:\Users\Alessandro\RiderProjects\Artisania\3.Data\obj\Debug\net7.0\refint\3.Data.dll
+C:\Users\Alessandro\RiderProjects\Artisania\3.Data\obj\Debug\net7.0\3.Data.pdb
+C:\Users\Alessandro\RiderProjects\Artisania\3.Data\obj\Debug\net7.0\ref\3.Data.dll
+C:\Users\Alessandro\RiderProjects\Artisania\3.Data\obj\Debug\net7.0\3.Data.csproj.AssemblyReference.cache
