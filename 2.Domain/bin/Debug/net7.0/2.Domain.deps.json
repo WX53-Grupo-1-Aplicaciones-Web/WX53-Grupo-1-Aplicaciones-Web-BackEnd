@@ -9,6 +9,7 @@
       "2.Domain/1.0.0": {
         "dependencies": {
           "3.Data": "1.0.0",
+          "4.Shared": "1.0.0",
           "AutoMapper": "13.0.1"
         },
         "runtime": {
@@ -189,6 +190,11 @@
         "runtime": {
           "3.Data.dll": {}
         }
+      },
+      "4.Shared/1.0.0": {
+        "runtime": {
+          "4.Shared.dll": {}
+        }
       }
     }
   },
@@ -311,6 +317,11 @@
       "hashPath": "pomelo.entityframeworkcore.mysql.7.0.0.nupkg.sha512"
     },
     "3.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "4.Shared/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

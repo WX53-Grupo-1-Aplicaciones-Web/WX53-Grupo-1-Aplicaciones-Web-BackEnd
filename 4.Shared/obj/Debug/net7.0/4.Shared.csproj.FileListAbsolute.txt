@@ -1,0 +1,11 @@
+C:\Users\Alessandro\RiderProjects\Artisania\4.Shared\bin\Debug\net7.0\4.Shared.deps.json
+C:\Users\Alessandro\RiderProjects\Artisania\4.Shared\bin\Debug\net7.0\4.Shared.dll
+C:\Users\Alessandro\RiderProjects\Artisania\4.Shared\bin\Debug\net7.0\4.Shared.pdb
+C:\Users\Alessandro\RiderProjects\Artisania\4.Shared\obj\Debug\net7.0\4.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alessandro\RiderProjects\Artisania\4.Shared\obj\Debug\net7.0\4.Shared.AssemblyInfoInputs.cache
+C:\Users\Alessandro\RiderProjects\Artisania\4.Shared\obj\Debug\net7.0\4.Shared.AssemblyInfo.cs
+C:\Users\Alessandro\RiderProjects\Artisania\4.Shared\obj\Debug\net7.0\4.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Alessandro\RiderProjects\Artisania\4.Shared\obj\Debug\net7.0\4.Shared.dll
+C:\Users\Alessandro\RiderProjects\Artisania\4.Shared\obj\Debug\net7.0\refint\4.Shared.dll
+C:\Users\Alessandro\RiderProjects\Artisania\4.Shared\obj\Debug\net7.0\4.Shared.pdb
+C:\Users\Alessandro\RiderProjects\Artisania\4.Shared\obj\Debug\net7.0\ref\4.Shared.dll

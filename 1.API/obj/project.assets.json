@@ -3597,6 +3597,7 @@
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "3.Data": "1.0.0",
+          "4.Shared": "1.0.0",
           "AutoMapper": "13.0.1"
         },
         "compile": {
@@ -3619,6 +3620,16 @@
         },
         "runtime": {
           "bin/placeholder/3.Data.dll": {}
+        }
+      },
+      "4.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/4.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/4.Shared.dll": {}
         }
       }
     }
@@ -10741,6 +10752,11 @@
       "type": "project",
       "path": "../3.Data/3.Data.csproj",
       "msbuildProject": "../3.Data/3.Data.csproj"
+    },
+    "4.Shared/1.0.0": {
+      "type": "project",
+      "path": "../4.Shared/4.Shared.csproj",
+      "msbuildProject": "../4.Shared/4.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {

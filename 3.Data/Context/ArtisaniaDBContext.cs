@@ -34,5 +34,7 @@ public class ArtisaniaDBContext:DbContext
         builder.Entity<Customer>().Property(c=>c.LastName).IsRequired();
         builder.Entity<Customer>().Property(c=>c.Phone).IsRequired();
         
+        
+        
     }
 }
