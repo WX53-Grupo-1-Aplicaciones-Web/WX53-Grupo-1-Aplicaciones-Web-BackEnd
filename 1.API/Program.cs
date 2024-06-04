@@ -1,5 +1,7 @@
 using _1.API.Mapper;
 using _2.Domain;
+using _2.Domain.ArtisanDomain;
+using _2.Domain.ProductDomain;
 using _3.Data;
 using _3.Data.Context;
 using Microsoft.EntityFrameworkCore;
@@ -14,6 +16,10 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddScoped<ICustomerData, CustomerMySqlData>();
 builder.Services.AddScoped<ICustomerDomain, CustomerDomain>();
+builder.Services.AddScoped<IProductData, ProductMySqlData>(); 
+builder.Services.AddScoped<IProductDomain, ProductDomain>(); 
+builder.Services.AddScoped<IArtisanData, ArtisanMySqlData>(); 
+builder.Services.AddScoped<IArtisanDomain, ArtisanDomain>();
 builder.Services.AddAutoMapper(typeof(RequestToModel), typeof(ModelToRequest),typeof(ModelToResponse));
 
 var connectionString = builder.Configuration.GetConnectionString("ArtisaniaDB");

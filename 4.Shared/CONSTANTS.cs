@@ -2,5 +2,5 @@
 
 public class CONSTANTS
 {
-    public static string PHONE_PATTERN = @"^[0-9]{10}$"; 
+    public static string PHONE_PATTERN = @"^9[0-9]{8}$";
 }

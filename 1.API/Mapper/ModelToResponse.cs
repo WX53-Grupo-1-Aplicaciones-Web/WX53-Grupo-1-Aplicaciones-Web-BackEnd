@@ -9,6 +9,8 @@ public class ModelToResponse: Profile
     public ModelToResponse()
     {
         CreateMap<Customer, CustomerResponse>();
+        CreateMap<Product, ProductResponse>(); 
+        CreateMap<Artisan, ArtisanResponse>();
 
     }
 }
