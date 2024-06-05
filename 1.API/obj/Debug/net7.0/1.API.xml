@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>1.API</name>
+    </assembly>
+    <members>
+        <member name="M:_1.API.Controllers.CustomerController.GetAsync">
+            <summary>
+            Obtiene todos los clientes disponibles.
+            </summary>
+            <remarks>
+            Ejemplo:
+            GET api/customer
+            </remarks>
+            <returns>
+            Una lista de clientes.
+            </returns>
+            <response code="200">Retorna la lista de clientes.</response>
+            <response code="404">Si no se encuentran clientes.</response>
+            <response code="500">Si ocurre un error interno del servidor.</response>
+        </member>
+        <member name="M:_1.API.Controllers.CustomerController.Get(System.Int32)">
+            <summary>
+            Obtiene un cliente específico por su ID.
+            </summary>
+            <remarks>
+            Ejemplo:
+            GET api/customer/5
+            </remarks>
+            <param name="id">El ID del cliente a obtener.</param>
+            <returns>
+            El cliente con el ID especificado.
+            </returns>
+            <response code="200">Retorna el cliente solicitado.</response>
+            <response code="404">Si el cliente con el ID especificado no se encuentra.</response>
+            <response code="500">Si ocurre un error interno del servidor.</response>
+        </member>
+        <member name="M:_1.API.Controllers.CustomerController.PostAsync(_1.API.Request.CustomerRequest)">
+            <summary>
+            Crea un nuevo cliente.
+            </summary>
+            <remarks>
+            Ejemplo:
+            POST api/customer
+            
+            Las reglas para la creación de un cliente son las siguientes:
+            - El correo electrónico debe tener un formato válido.
+            - El número de teléfono debe tener un formato válido.
+            - El correo electrónico no debe estar vinculado con una cuenta existente.
+            </remarks>
+            <param name="data">El cliente a crear.</param>
+            <returns>
+            El cliente creado.
+            </returns>
+            <response code="201">Retorna el cliente creado.</response>
+            <response code="400">Si el cliente es nulo, el correo electrónico o el número de teléfono no tienen un formato válido, o el correo electrónico está vinculado con una cuenta existente.</response>
+            <response code="500">Si ocurre un error interno del servidor.</response>
+        </member>
+        <member name="M:_1.API.Controllers.CustomerController.Put(System.Int32,_1.API.Request.CustomerRequest)">
+            <summary>
+            Actualiza un cliente existente.
+            </summary>
+            <remarks>
+            Ejemplo:
+            PUT api/customer/5
+            </remarks>
+            <param name="id">El ID del cliente a actualizar.</param>
+            <param name="data">Los nuevos datos del cliente.</param>
+            <returns>
+            El cliente actualizado.
+            </returns>
+            <response code="200">Retorna el cliente actualizado.</response>
+            <response code="400">Si el cliente es nulo o el ID no coincide con el del cliente.</response>
+            <response code="404">Si no se encuentra el cliente con el ID especificado.</response>
+            <response code="500">Si ocurre un error interno del servidor.</response>
+        </member>
+        <member name="M:_1.API.Controllers.CustomerController.Delete(System.Int32)">
+            <summary>
+            Marca un cliente como inactivo.
+            </summary>
+            <remarks>
+            Ejemplo:
+            DELETE api/customer/5
+            </remarks>
+            <param name="id">El ID del cliente a marcar como inactivo.</param>
+            <returns>
+            Retorna un mensaje de éxito si el cliente fue marcado como inactivo correctamente.
+            </returns>
+            <response code="200">Retorna un mensaje de éxito si el cliente fue marcado como inactivo correctamente.</response>
+            <response code="404">Si no se encuentra el cliente con el ID especificado.</response>
+            <response code="500">Si ocurre un error interno del servidor.</response>
+        </member>
+    </members>
+</doc>

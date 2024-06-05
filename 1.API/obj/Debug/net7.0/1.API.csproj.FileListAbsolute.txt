@@ -234,3 +234,5 @@ C:\Users\Alessandro\RiderProjects\Artisania\1.API\bin\Debug\net7.0\runtimes\win\
 C:\Users\Alessandro\RiderProjects\Artisania\1.API\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Users\Alessandro\RiderProjects\Artisania\1.API\bin\Debug\net7.0\4.Shared.dll
 C:\Users\Alessandro\RiderProjects\Artisania\1.API\bin\Debug\net7.0\4.Shared.pdb
+C:\Users\Alessandro\RiderProjects\Artisania\1.API\bin\Debug\net7.0\1.API.xml
+C:\Users\Alessandro\RiderProjects\Artisania\1.API\obj\Debug\net7.0\1.API.xml

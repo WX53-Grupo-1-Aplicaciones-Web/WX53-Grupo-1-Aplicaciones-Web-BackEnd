@@ -1,3 +1,4 @@
+using System.Reflection;
 using _1.API.Mapper;
 using _2.Domain;
 using _2.Domain.ArtisanDomain;
@@ -6,6 +7,8 @@ using _2.Domain.ProductDomain;
 using _3.Data;
 using _3.Data.Context;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.OpenApi.Models;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -13,8 +16,29 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
-
+builder.Services.AddSwaggerGen(options =>
+{
+    options.SwaggerDoc("v1", new OpenApiInfo
+    {
+        Version = "v1",
+        Title = "Artisania API",
+        Description = "An ASP.NET Core Web API for managing Artisania's customers,artisans and products.",
+        TermsOfService = new Uri("https://example.com/terms"),
+        Contact = new OpenApiContact
+        {
+            Name = "Artisania Landing page startup",
+            Url = new Uri("https://wx53-grupo-1-aplicaciones-web.github.io/WX53-Grupo-1-Aplicaciones-Web-LandingPage/")
+        },
+        License = new OpenApiLicense
+        {
+            Name = "Example License",
+            Url = new Uri("https://example.com/license")
+        }
+    });
+    // using System.Reflection;
+    var xmlFilename = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
+    options.IncludeXmlComments(Path.Combine(AppContext.BaseDirectory, xmlFilename));
+});
 builder.Services.AddScoped<ICustomerData, CustomerMySqlData>();
 builder.Services.AddScoped<ICustomerDomain, CustomerDomain>();
 builder.Services.AddScoped<IProductData, ProductMySqlData>(); 
