@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Alessandro\\RiderProjects\\Artisania\\3.Data\\3.Data.csproj": {}
+    "E:\\ANDERSON\\UNIVERSIDAD\\CICLO 8 (2024-II)\\APP WEB\\codigos\\Github-Artisania\\3.Data\\3.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Alessandro\\RiderProjects\\Artisania\\3.Data\\3.Data.csproj": {
+    "E:\\ANDERSON\\UNIVERSIDAD\\CICLO 8 (2024-II)\\APP WEB\\codigos\\Github-Artisania\\3.Data\\3.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alessandro\\RiderProjects\\Artisania\\3.Data\\3.Data.csproj",
+        "projectUniqueName": "E:\\ANDERSON\\UNIVERSIDAD\\CICLO 8 (2024-II)\\APP WEB\\codigos\\Github-Artisania\\3.Data\\3.Data.csproj",
         "projectName": "3.Data",
-        "projectPath": "C:\\Users\\Alessandro\\RiderProjects\\Artisania\\3.Data\\3.Data.csproj",
-        "packagesPath": "C:\\Users\\Alessandro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alessandro\\RiderProjects\\Artisania\\3.Data\\obj\\",
+        "projectPath": "E:\\ANDERSON\\UNIVERSIDAD\\CICLO 8 (2024-II)\\APP WEB\\codigos\\Github-Artisania\\3.Data\\3.Data.csproj",
+        "packagesPath": "C:\\Users\\E-TECNOVA\\.nuget\\packages\\",
+        "outputPath": "E:\\ANDERSON\\UNIVERSIDAD\\CICLO 8 (2024-II)\\APP WEB\\codigos\\Github-Artisania\\3.Data\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Alessandro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\E-TECNOVA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -69,7 +73,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.408\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.410\\RuntimeIdentifierGraph.json"
         }
       }
     }

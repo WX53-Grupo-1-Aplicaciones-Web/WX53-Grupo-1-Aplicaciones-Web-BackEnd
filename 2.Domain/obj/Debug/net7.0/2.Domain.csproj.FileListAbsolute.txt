@@ -15,3 +15,20 @@ C:\Users\Alessandro\RiderProjects\Artisania\2.Domain\obj\Debug\net7.0\2.Domain.p
 C:\Users\Alessandro\RiderProjects\Artisania\2.Domain\obj\Debug\net7.0\ref\2.Domain.dll
 C:\Users\Alessandro\RiderProjects\Artisania\2.Domain\bin\Debug\net7.0\4.Shared.dll
 C:\Users\Alessandro\RiderProjects\Artisania\2.Domain\bin\Debug\net7.0\4.Shared.pdb
+E:\ANDERSON\UNIVERSIDAD\CICLO 8 (2024-II)\APP WEB\codigos\Github-Artisania\2.Domain\bin\Debug\net7.0\2.Domain.deps.json
+E:\ANDERSON\UNIVERSIDAD\CICLO 8 (2024-II)\APP WEB\codigos\Github-Artisania\2.Domain\bin\Debug\net7.0\2.Domain.dll
+E:\ANDERSON\UNIVERSIDAD\CICLO 8 (2024-II)\APP WEB\codigos\Github-Artisania\2.Domain\bin\Debug\net7.0\2.Domain.pdb
+E:\ANDERSON\UNIVERSIDAD\CICLO 8 (2024-II)\APP WEB\codigos\Github-Artisania\2.Domain\bin\Debug\net7.0\3.Data.dll
+E:\ANDERSON\UNIVERSIDAD\CICLO 8 (2024-II)\APP WEB\codigos\Github-Artisania\2.Domain\bin\Debug\net7.0\4.Shared.dll
+E:\ANDERSON\UNIVERSIDAD\CICLO 8 (2024-II)\APP WEB\codigos\Github-Artisania\2.Domain\bin\Debug\net7.0\3.Data.pdb
+E:\ANDERSON\UNIVERSIDAD\CICLO 8 (2024-II)\APP WEB\codigos\Github-Artisania\2.Domain\bin\Debug\net7.0\4.Shared.pdb
+E:\ANDERSON\UNIVERSIDAD\CICLO 8 (2024-II)\APP WEB\codigos\Github-Artisania\2.Domain\obj\Debug\net7.0\2.Domain.csproj.AssemblyReference.cache
+E:\ANDERSON\UNIVERSIDAD\CICLO 8 (2024-II)\APP WEB\codigos\Github-Artisania\2.Domain\obj\Debug\net7.0\2.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\ANDERSON\UNIVERSIDAD\CICLO 8 (2024-II)\APP WEB\codigos\Github-Artisania\2.Domain\obj\Debug\net7.0\2.Domain.AssemblyInfoInputs.cache
+E:\ANDERSON\UNIVERSIDAD\CICLO 8 (2024-II)\APP WEB\codigos\Github-Artisania\2.Domain\obj\Debug\net7.0\2.Domain.AssemblyInfo.cs
+E:\ANDERSON\UNIVERSIDAD\CICLO 8 (2024-II)\APP WEB\codigos\Github-Artisania\2.Domain\obj\Debug\net7.0\2.Domain.csproj.CoreCompileInputs.cache
+E:\ANDERSON\UNIVERSIDAD\CICLO 8 (2024-II)\APP WEB\codigos\Github-Artisania\2.Domain\obj\Debug\net7.0\2.Domain.csproj.CopyComplete
+E:\ANDERSON\UNIVERSIDAD\CICLO 8 (2024-II)\APP WEB\codigos\Github-Artisania\2.Domain\obj\Debug\net7.0\2.Domain.dll
+E:\ANDERSON\UNIVERSIDAD\CICLO 8 (2024-II)\APP WEB\codigos\Github-Artisania\2.Domain\obj\Debug\net7.0\refint\2.Domain.dll
+E:\ANDERSON\UNIVERSIDAD\CICLO 8 (2024-II)\APP WEB\codigos\Github-Artisania\2.Domain\obj\Debug\net7.0\2.Domain.pdb
+E:\ANDERSON\UNIVERSIDAD\CICLO 8 (2024-II)\APP WEB\codigos\Github-Artisania\2.Domain\obj\Debug\net7.0\ref\2.Domain.dll

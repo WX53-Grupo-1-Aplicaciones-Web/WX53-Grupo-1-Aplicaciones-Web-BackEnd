@@ -9,3 +9,14 @@ C:\Users\Alessandro\RiderProjects\Artisania\4.Shared\obj\Debug\net7.0\4.Shared.d
 C:\Users\Alessandro\RiderProjects\Artisania\4.Shared\obj\Debug\net7.0\refint\4.Shared.dll
 C:\Users\Alessandro\RiderProjects\Artisania\4.Shared\obj\Debug\net7.0\4.Shared.pdb
 C:\Users\Alessandro\RiderProjects\Artisania\4.Shared\obj\Debug\net7.0\ref\4.Shared.dll
+E:\ANDERSON\UNIVERSIDAD\CICLO 8 (2024-II)\APP WEB\codigos\Github-Artisania\4.Shared\bin\Debug\net7.0\4.Shared.deps.json
+E:\ANDERSON\UNIVERSIDAD\CICLO 8 (2024-II)\APP WEB\codigos\Github-Artisania\4.Shared\bin\Debug\net7.0\4.Shared.dll
+E:\ANDERSON\UNIVERSIDAD\CICLO 8 (2024-II)\APP WEB\codigos\Github-Artisania\4.Shared\bin\Debug\net7.0\4.Shared.pdb
+E:\ANDERSON\UNIVERSIDAD\CICLO 8 (2024-II)\APP WEB\codigos\Github-Artisania\4.Shared\obj\Debug\net7.0\4.Shared.GeneratedMSBuildEditorConfig.editorconfig
+E:\ANDERSON\UNIVERSIDAD\CICLO 8 (2024-II)\APP WEB\codigos\Github-Artisania\4.Shared\obj\Debug\net7.0\4.Shared.AssemblyInfoInputs.cache
+E:\ANDERSON\UNIVERSIDAD\CICLO 8 (2024-II)\APP WEB\codigos\Github-Artisania\4.Shared\obj\Debug\net7.0\4.Shared.AssemblyInfo.cs
+E:\ANDERSON\UNIVERSIDAD\CICLO 8 (2024-II)\APP WEB\codigos\Github-Artisania\4.Shared\obj\Debug\net7.0\4.Shared.csproj.CoreCompileInputs.cache
+E:\ANDERSON\UNIVERSIDAD\CICLO 8 (2024-II)\APP WEB\codigos\Github-Artisania\4.Shared\obj\Debug\net7.0\4.Shared.dll
+E:\ANDERSON\UNIVERSIDAD\CICLO 8 (2024-II)\APP WEB\codigos\Github-Artisania\4.Shared\obj\Debug\net7.0\refint\4.Shared.dll
+E:\ANDERSON\UNIVERSIDAD\CICLO 8 (2024-II)\APP WEB\codigos\Github-Artisania\4.Shared\obj\Debug\net7.0\4.Shared.pdb
+E:\ANDERSON\UNIVERSIDAD\CICLO 8 (2024-II)\APP WEB\codigos\Github-Artisania\4.Shared\obj\Debug\net7.0\ref\4.Shared.dll

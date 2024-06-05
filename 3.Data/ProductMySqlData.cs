@@ -38,6 +38,9 @@ namespace _3.Data
                 productToUpdate.Name = data.Name;
                 productToUpdate.Unit_Price = data.Unit_Price;
                 productToUpdate.Stock = data.Stock;
+                productToUpdate.Description = data.Description;//
+                productToUpdate.Category = data.Category;//
+                productToUpdate.Image = data.Image;//
                 _artisaniaDbContext.Products.Update(productToUpdate);
                 await _artisaniaDbContext.SaveChangesAsync();
                 transaction.Commit();

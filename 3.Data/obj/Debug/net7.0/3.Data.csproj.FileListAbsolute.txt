@@ -10,3 +10,15 @@ C:\Users\Alessandro\RiderProjects\Artisania\3.Data\obj\Debug\net7.0\refint\3.Dat
 C:\Users\Alessandro\RiderProjects\Artisania\3.Data\obj\Debug\net7.0\3.Data.pdb
 C:\Users\Alessandro\RiderProjects\Artisania\3.Data\obj\Debug\net7.0\ref\3.Data.dll
 C:\Users\Alessandro\RiderProjects\Artisania\3.Data\obj\Debug\net7.0\3.Data.csproj.AssemblyReference.cache
+E:\ANDERSON\UNIVERSIDAD\CICLO 8 (2024-II)\APP WEB\codigos\Github-Artisania\3.Data\bin\Debug\net7.0\3.Data.deps.json
+E:\ANDERSON\UNIVERSIDAD\CICLO 8 (2024-II)\APP WEB\codigos\Github-Artisania\3.Data\bin\Debug\net7.0\3.Data.dll
+E:\ANDERSON\UNIVERSIDAD\CICLO 8 (2024-II)\APP WEB\codigos\Github-Artisania\3.Data\bin\Debug\net7.0\3.Data.pdb
+E:\ANDERSON\UNIVERSIDAD\CICLO 8 (2024-II)\APP WEB\codigos\Github-Artisania\3.Data\obj\Debug\net7.0\3.Data.csproj.AssemblyReference.cache
+E:\ANDERSON\UNIVERSIDAD\CICLO 8 (2024-II)\APP WEB\codigos\Github-Artisania\3.Data\obj\Debug\net7.0\3.Data.GeneratedMSBuildEditorConfig.editorconfig
+E:\ANDERSON\UNIVERSIDAD\CICLO 8 (2024-II)\APP WEB\codigos\Github-Artisania\3.Data\obj\Debug\net7.0\3.Data.AssemblyInfoInputs.cache
+E:\ANDERSON\UNIVERSIDAD\CICLO 8 (2024-II)\APP WEB\codigos\Github-Artisania\3.Data\obj\Debug\net7.0\3.Data.AssemblyInfo.cs
+E:\ANDERSON\UNIVERSIDAD\CICLO 8 (2024-II)\APP WEB\codigos\Github-Artisania\3.Data\obj\Debug\net7.0\3.Data.csproj.CoreCompileInputs.cache
+E:\ANDERSON\UNIVERSIDAD\CICLO 8 (2024-II)\APP WEB\codigos\Github-Artisania\3.Data\obj\Debug\net7.0\3.Data.dll
+E:\ANDERSON\UNIVERSIDAD\CICLO 8 (2024-II)\APP WEB\codigos\Github-Artisania\3.Data\obj\Debug\net7.0\refint\3.Data.dll
+E:\ANDERSON\UNIVERSIDAD\CICLO 8 (2024-II)\APP WEB\codigos\Github-Artisania\3.Data\obj\Debug\net7.0\3.Data.pdb
+E:\ANDERSON\UNIVERSIDAD\CICLO 8 (2024-II)\APP WEB\codigos\Github-Artisania\3.Data\obj\Debug\net7.0\ref\3.Data.dll

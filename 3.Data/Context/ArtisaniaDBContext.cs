@@ -49,6 +49,8 @@ public class ArtisaniaDBContext:DbContext
         builder.Entity<Product>().Property(p => p.Name).IsRequired();
         builder.Entity<Product>().Property(p => p.Unit_Price).IsRequired();
         builder.Entity<Product>().Property(p => p.Stock).IsRequired();
-        
+        builder.Entity<Product>().Property(p => p.Description).IsRequired();//
+        builder.Entity<Product>().Property(p => p.Category).IsRequired();//
+        builder.Entity<Product>().Property(p => p.Image).IsRequired();//
     }
 }
