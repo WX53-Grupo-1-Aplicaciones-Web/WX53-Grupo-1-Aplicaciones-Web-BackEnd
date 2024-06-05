@@ -1,0 +1,204 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\corte\\OneDrive\\Documentos\\UPC\\Octavo ciclo\\App web\\Travajo final - Backend\\WX53-Grupo-1-Aplicaciones-Web-BackEnd-main\\2.Domain\\2.Domain.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\corte\\OneDrive\\Documentos\\UPC\\Octavo ciclo\\App web\\Travajo final - Backend\\WX53-Grupo-1-Aplicaciones-Web-BackEnd-main\\2.Domain\\2.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\corte\\OneDrive\\Documentos\\UPC\\Octavo ciclo\\App web\\Travajo final - Backend\\WX53-Grupo-1-Aplicaciones-Web-BackEnd-main\\2.Domain\\2.Domain.csproj",
+        "projectName": "2.Domain",
+        "projectPath": "C:\\Users\\corte\\OneDrive\\Documentos\\UPC\\Octavo ciclo\\App web\\Travajo final - Backend\\WX53-Grupo-1-Aplicaciones-Web-BackEnd-main\\2.Domain\\2.Domain.csproj",
+        "packagesPath": "C:\\Users\\corte\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\corte\\OneDrive\\Documentos\\UPC\\Octavo ciclo\\App web\\Travajo final - Backend\\WX53-Grupo-1-Aplicaciones-Web-BackEnd-main\\2.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\corte\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\corte\\OneDrive\\Documentos\\UPC\\Octavo ciclo\\App web\\Travajo final - Backend\\WX53-Grupo-1-Aplicaciones-Web-BackEnd-main\\3.Data\\3.Data.csproj": {
+                "projectPath": "C:\\Users\\corte\\OneDrive\\Documentos\\UPC\\Octavo ciclo\\App web\\Travajo final - Backend\\WX53-Grupo-1-Aplicaciones-Web-BackEnd-main\\3.Data\\3.Data.csproj"
+              },
+              "C:\\Users\\corte\\OneDrive\\Documentos\\UPC\\Octavo ciclo\\App web\\Travajo final - Backend\\WX53-Grupo-1-Aplicaciones-Web-BackEnd-main\\4.Shared\\4.Shared.csproj": {
+                "projectPath": "C:\\Users\\corte\\OneDrive\\Documentos\\UPC\\Octavo ciclo\\App web\\Travajo final - Backend\\WX53-Grupo-1-Aplicaciones-Web-BackEnd-main\\4.Shared\\4.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.409\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\corte\\OneDrive\\Documentos\\UPC\\Octavo ciclo\\App web\\Travajo final - Backend\\WX53-Grupo-1-Aplicaciones-Web-BackEnd-main\\3.Data\\3.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\corte\\OneDrive\\Documentos\\UPC\\Octavo ciclo\\App web\\Travajo final - Backend\\WX53-Grupo-1-Aplicaciones-Web-BackEnd-main\\3.Data\\3.Data.csproj",
+        "projectName": "3.Data",
+        "projectPath": "C:\\Users\\corte\\OneDrive\\Documentos\\UPC\\Octavo ciclo\\App web\\Travajo final - Backend\\WX53-Grupo-1-Aplicaciones-Web-BackEnd-main\\3.Data\\3.Data.csproj",
+        "packagesPath": "C:\\Users\\corte\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\corte\\OneDrive\\Documentos\\UPC\\Octavo ciclo\\App web\\Travajo final - Backend\\WX53-Grupo-1-Aplicaciones-Web-BackEnd-main\\3.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\corte\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.19, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.409\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\corte\\OneDrive\\Documentos\\UPC\\Octavo ciclo\\App web\\Travajo final - Backend\\WX53-Grupo-1-Aplicaciones-Web-BackEnd-main\\4.Shared\\4.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\corte\\OneDrive\\Documentos\\UPC\\Octavo ciclo\\App web\\Travajo final - Backend\\WX53-Grupo-1-Aplicaciones-Web-BackEnd-main\\4.Shared\\4.Shared.csproj",
+        "projectName": "4.Shared",
+        "projectPath": "C:\\Users\\corte\\OneDrive\\Documentos\\UPC\\Octavo ciclo\\App web\\Travajo final - Backend\\WX53-Grupo-1-Aplicaciones-Web-BackEnd-main\\4.Shared\\4.Shared.csproj",
+        "packagesPath": "C:\\Users\\corte\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\corte\\OneDrive\\Documentos\\UPC\\Octavo ciclo\\App web\\Travajo final - Backend\\WX53-Grupo-1-Aplicaciones-Web-BackEnd-main\\4.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\corte\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.409\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
