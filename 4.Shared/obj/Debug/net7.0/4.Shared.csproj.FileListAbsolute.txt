@@ -9,3 +9,14 @@ C:\Users\Alessandro\RiderProjects\Artisania\4.Shared\obj\Debug\net7.0\4.Shared.d
 C:\Users\Alessandro\RiderProjects\Artisania\4.Shared\obj\Debug\net7.0\refint\4.Shared.dll
 C:\Users\Alessandro\RiderProjects\Artisania\4.Shared\obj\Debug\net7.0\4.Shared.pdb
 C:\Users\Alessandro\RiderProjects\Artisania\4.Shared\obj\Debug\net7.0\ref\4.Shared.dll
+D:\Escritorio\Universidad\ciclo8\AppWeb\semana12\Teb3\4.Shared\bin\Debug\net7.0\4.Shared.deps.json
+D:\Escritorio\Universidad\ciclo8\AppWeb\semana12\Teb3\4.Shared\bin\Debug\net7.0\4.Shared.dll
+D:\Escritorio\Universidad\ciclo8\AppWeb\semana12\Teb3\4.Shared\bin\Debug\net7.0\4.Shared.pdb
+D:\Escritorio\Universidad\ciclo8\AppWeb\semana12\Teb3\4.Shared\obj\Debug\net7.0\4.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\Escritorio\Universidad\ciclo8\AppWeb\semana12\Teb3\4.Shared\obj\Debug\net7.0\4.Shared.AssemblyInfoInputs.cache
+D:\Escritorio\Universidad\ciclo8\AppWeb\semana12\Teb3\4.Shared\obj\Debug\net7.0\4.Shared.AssemblyInfo.cs
+D:\Escritorio\Universidad\ciclo8\AppWeb\semana12\Teb3\4.Shared\obj\Debug\net7.0\4.Shared.csproj.CoreCompileInputs.cache
+D:\Escritorio\Universidad\ciclo8\AppWeb\semana12\Teb3\4.Shared\obj\Debug\net7.0\4.Shared.dll
+D:\Escritorio\Universidad\ciclo8\AppWeb\semana12\Teb3\4.Shared\obj\Debug\net7.0\refint\4.Shared.dll
+D:\Escritorio\Universidad\ciclo8\AppWeb\semana12\Teb3\4.Shared\obj\Debug\net7.0\4.Shared.pdb
+D:\Escritorio\Universidad\ciclo8\AppWeb\semana12\Teb3\4.Shared\obj\Debug\net7.0\ref\4.Shared.dll

@@ -10,3 +10,15 @@ C:\Users\Alessandro\RiderProjects\Artisania\3.Data\obj\Debug\net7.0\refint\3.Dat
 C:\Users\Alessandro\RiderProjects\Artisania\3.Data\obj\Debug\net7.0\3.Data.pdb
 C:\Users\Alessandro\RiderProjects\Artisania\3.Data\obj\Debug\net7.0\ref\3.Data.dll
 C:\Users\Alessandro\RiderProjects\Artisania\3.Data\obj\Debug\net7.0\3.Data.csproj.AssemblyReference.cache
+D:\Escritorio\Universidad\ciclo8\AppWeb\semana12\Teb3\3.Data\bin\Debug\net7.0\3.Data.deps.json
+D:\Escritorio\Universidad\ciclo8\AppWeb\semana12\Teb3\3.Data\bin\Debug\net7.0\3.Data.dll
+D:\Escritorio\Universidad\ciclo8\AppWeb\semana12\Teb3\3.Data\bin\Debug\net7.0\3.Data.pdb
+D:\Escritorio\Universidad\ciclo8\AppWeb\semana12\Teb3\3.Data\obj\Debug\net7.0\3.Data.csproj.AssemblyReference.cache
+D:\Escritorio\Universidad\ciclo8\AppWeb\semana12\Teb3\3.Data\obj\Debug\net7.0\3.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\Escritorio\Universidad\ciclo8\AppWeb\semana12\Teb3\3.Data\obj\Debug\net7.0\3.Data.AssemblyInfoInputs.cache
+D:\Escritorio\Universidad\ciclo8\AppWeb\semana12\Teb3\3.Data\obj\Debug\net7.0\3.Data.AssemblyInfo.cs
+D:\Escritorio\Universidad\ciclo8\AppWeb\semana12\Teb3\3.Data\obj\Debug\net7.0\3.Data.csproj.CoreCompileInputs.cache
+D:\Escritorio\Universidad\ciclo8\AppWeb\semana12\Teb3\3.Data\obj\Debug\net7.0\3.Data.dll
+D:\Escritorio\Universidad\ciclo8\AppWeb\semana12\Teb3\3.Data\obj\Debug\net7.0\refint\3.Data.dll
+D:\Escritorio\Universidad\ciclo8\AppWeb\semana12\Teb3\3.Data\obj\Debug\net7.0\3.Data.pdb
+D:\Escritorio\Universidad\ciclo8\AppWeb\semana12\Teb3\3.Data\obj\Debug\net7.0\ref\3.Data.dll

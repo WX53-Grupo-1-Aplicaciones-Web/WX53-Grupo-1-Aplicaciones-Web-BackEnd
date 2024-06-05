@@ -8,19 +8,19 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Alessandro\\.nuget\\packages\\": {}
+    "C:\\Users\\HP\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Alessandro\\RiderProjects\\Artisania\\4.Shared\\4.Shared.csproj",
+      "projectUniqueName": "D:\\Escritorio\\Universidad\\ciclo8\\AppWeb\\semana12\\Teb3\\4.Shared\\4.Shared.csproj",
       "projectName": "4.Shared",
-      "projectPath": "C:\\Users\\Alessandro\\RiderProjects\\Artisania\\4.Shared\\4.Shared.csproj",
-      "packagesPath": "C:\\Users\\Alessandro\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Alessandro\\RiderProjects\\Artisania\\4.Shared\\obj\\",
+      "projectPath": "D:\\Escritorio\\Universidad\\ciclo8\\AppWeb\\semana12\\Teb3\\4.Shared\\4.Shared.csproj",
+      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+      "outputPath": "D:\\Escritorio\\Universidad\\ciclo8\\AppWeb\\semana12\\Teb3\\4.Shared\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Alessandro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -61,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.408\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -6391,19 +6391,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Alessandro\\.nuget\\packages\\": {}
+    "C:\\Users\\HP\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Alessandro\\RiderProjects\\Artisania\\2.Domain.Test\\2.Domain.Test.csproj",
+      "projectUniqueName": "D:\\Escritorio\\Universidad\\ciclo8\\AppWeb\\semana12\\Teb3\\2.Domain.Test\\2.Domain.Test.csproj",
       "projectName": "2.Domain.Test",
-      "projectPath": "C:\\Users\\Alessandro\\RiderProjects\\Artisania\\2.Domain.Test\\2.Domain.Test.csproj",
-      "packagesPath": "C:\\Users\\Alessandro\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Alessandro\\RiderProjects\\Artisania\\2.Domain.Test\\obj\\",
+      "projectPath": "D:\\Escritorio\\Universidad\\ciclo8\\AppWeb\\semana12\\Teb3\\2.Domain.Test\\2.Domain.Test.csproj",
+      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+      "outputPath": "D:\\Escritorio\\Universidad\\ciclo8\\AppWeb\\semana12\\Teb3\\2.Domain.Test\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Alessandro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6417,11 +6417,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\Alessandro\\RiderProjects\\Artisania\\2.Domain\\2.Domain.csproj": {
-              "projectPath": "C:\\Users\\Alessandro\\RiderProjects\\Artisania\\2.Domain\\2.Domain.csproj"
+            "D:\\Escritorio\\Universidad\\ciclo8\\AppWeb\\semana12\\Teb3\\2.Domain\\2.Domain.csproj": {
+              "projectPath": "D:\\Escritorio\\Universidad\\ciclo8\\AppWeb\\semana12\\Teb3\\2.Domain\\2.Domain.csproj"
             },
-            "C:\\Users\\Alessandro\\RiderProjects\\Artisania\\4.Shared\\4.Shared.csproj": {
-              "projectPath": "C:\\Users\\Alessandro\\RiderProjects\\Artisania\\4.Shared\\4.Shared.csproj"
+            "D:\\Escritorio\\Universidad\\ciclo8\\AppWeb\\semana12\\Teb3\\4.Shared\\4.Shared.csproj": {
+              "projectPath": "D:\\Escritorio\\Universidad\\ciclo8\\AppWeb\\semana12\\Teb3\\4.Shared\\4.Shared.csproj"
             }
           }
         }
@@ -6477,7 +6477,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.408\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }
