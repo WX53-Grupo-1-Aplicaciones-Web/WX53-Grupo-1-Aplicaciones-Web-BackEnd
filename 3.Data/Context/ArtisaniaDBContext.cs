@@ -60,7 +60,7 @@ public class ArtisaniaDBContext:DbContext
         builder.Entity<Order>().Property(o => o.status).IsRequired();
         builder.Entity<Order>().Property(o => o.delivery_address).IsRequired();
         
-        builder.Entity<Personalization>().ToTable("Personalization");
+        builder.Entity<Personalization>().ToTable("Personalizations");
         builder.Entity<Personalization>().HasKey(p => p.Id);
         builder.Entity<Personalization>().Property(p => p.Description).IsRequired();
         builder.Entity<Personalization>().Property(p => p.AdditionalCost).IsRequired();

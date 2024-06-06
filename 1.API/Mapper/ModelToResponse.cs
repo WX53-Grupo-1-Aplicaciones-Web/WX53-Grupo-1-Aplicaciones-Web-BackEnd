@@ -12,5 +12,6 @@ public class ModelToResponse: Profile
         CreateMap<Product, ProductResponse>(); 
         CreateMap<Artisan, ArtisanResponse>();
         CreateMap<Order, OrderResponse>();
+        CreateMap<Personalization, PersonalizationResponse>();
     }
 }
