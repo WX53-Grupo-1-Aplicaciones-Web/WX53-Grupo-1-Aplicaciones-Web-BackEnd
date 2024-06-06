@@ -16,8 +16,11 @@ public class ArtisaniaDBContext:DbContext
     
     public DbSet<Customer>Customers { get; set; }
     public DbSet<Artisan> Artisans { get; set; } 
-    
     public DbSet<Product> Products { get; set; } 
+    public DbSet<Order> Orders { get; set; }
+    public DbSet<Personalization> Personalizations { get; set; }
+
+
 
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
@@ -32,23 +35,36 @@ public class ArtisaniaDBContext:DbContext
     protected override void OnModelCreating(ModelBuilder builder)
     {
         base.OnModelCreating(builder);
-        builder.Entity<Customer>().ToTable("Customer");
+        builder.Entity<Customer>().ToTable("Customers");
         builder.Entity<Customer>().HasKey(c=>c.Id);
         builder.Entity<Customer>().Property(c=>c.Name).IsRequired();
         builder.Entity<Customer>().Property(c=>c.LastName).IsRequired();
         builder.Entity<Customer>().Property(c=>c.Phone).IsRequired();
         
-        builder.Entity<Artisan>().ToTable("Artisan");
+        builder.Entity<Artisan>().ToTable("Artisans");
         builder.Entity<Artisan>().HasKey(c=>c.Id);
         builder.Entity<Artisan>().Property(c=>c.Name).IsRequired();
         builder.Entity<Artisan>().Property(c=>c.LastName).IsRequired();
         builder.Entity<Artisan>().Property(c=>c.Phone).IsRequired();
         
-        builder.Entity<Product>().ToTable("Product"); 
+        builder.Entity<Product>().ToTable("Products"); 
         builder.Entity<Product>().HasKey(p => p.Id);
         builder.Entity<Product>().Property(p => p.Name).IsRequired();
         builder.Entity<Product>().Property(p => p.Unit_Price).IsRequired();
         builder.Entity<Product>().Property(p => p.Stock).IsRequired();
+        
+        builder.Entity<Order>().ToTable("Orders");
+        builder.Entity<Order>().HasKey(o => o.Id);
+        builder.Entity<Order>().Property(o => o.request_date).IsRequired();
+        builder.Entity<Order>().Property(o => o.shipping_date).IsRequired();
+        builder.Entity<Order>().Property(o => o.status).IsRequired();
+        builder.Entity<Order>().Property(o => o.delivery_address).IsRequired();
+        
+        builder.Entity<Personalization>().ToTable("Personalizations");
+        builder.Entity<Personalization>().HasKey(p => p.Id);
+        builder.Entity<Personalization>().Property(p => p.Description).IsRequired();
+        builder.Entity<Personalization>().Property(p => p.AdditionalCost).IsRequired();
+        builder.Entity<Personalization>().Property(p => p.State).IsRequired();
         
     }
 }

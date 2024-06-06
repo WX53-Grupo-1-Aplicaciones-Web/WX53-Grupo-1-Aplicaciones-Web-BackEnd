@@ -12,5 +12,8 @@ public class RequestToModel: Profile
         CreateMap<CustomerRequest, Customer>();
         CreateMap<ProductRequest, Product>(); 
         CreateMap<ArtisanRequest, Artisan>();
+        CreateMap<OrderRequest, Order>();
+        CreateMap<PersonalizationRequest, Personalization>();
+
     }
 }
