@@ -1,5 +1,9 @@
 using _3.Data;
 using _3.Data.Models;
+using _4.Shared;
+
+using System.Text.RegularExpressions;
+
 
 namespace _2.Domain.ProductDomain;
 public class ProductDomain : IProductDomain
@@ -13,6 +17,31 @@ public class ProductDomain : IProductDomain
 
         public async Task<bool> SaveAsync(Product data)
         {
+            if (data.Name.Length > 50)
+            {
+                throw new ArgumentException("El nombre del producto no puede tener más de 50 caracteres.");
+            }
+            
+            if (data.Unit_Price <= 0)
+            {
+                throw new ArgumentException("El precio unitario del producto debe ser positivo.");
+            }
+            
+            if (data.Unit_Price > 0 && !Regex.IsMatch(data.Unit_Price.ToString(), @"^\d+(\.\d{1,2})?$"))
+            {
+                throw new ArgumentException("El precio unitario del producto debe tener un formato decimal válido (hasta dos decimales).");
+            }
+            
+            if (data.Stock <= 0)
+            {
+                throw new ArgumentException("El stock del producto no puede ser negativo.");
+            }
+            
+            if (data.Description.Length > 300)
+            {
+                throw new ArgumentException("La descripción del producto no puede tener más de 300 caracteres.");
+            }
+            
             return await _productData.SaveAsync(data);
         }
 

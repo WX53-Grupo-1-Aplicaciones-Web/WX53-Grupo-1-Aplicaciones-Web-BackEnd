@@ -47,11 +47,14 @@ public class ArtisaniaDBContext:DbContext
         builder.Entity<Artisan>().Property(c=>c.LastName).IsRequired();
         builder.Entity<Artisan>().Property(c=>c.Phone).IsRequired();
         
-        builder.Entity<Product>().ToTable("Products"); 
+        builder.Entity<Product>().ToTable("Product"); 
         builder.Entity<Product>().HasKey(p => p.Id);
         builder.Entity<Product>().Property(p => p.Name).IsRequired();
         builder.Entity<Product>().Property(p => p.Unit_Price).IsRequired();
         builder.Entity<Product>().Property(p => p.Stock).IsRequired();
+        builder.Entity<Product>().Property(p => p.Description).IsRequired();//
+        builder.Entity<Product>().Property(p => p.Category).IsRequired();//
+        builder.Entity<Product>().Property(p => p.Image).IsRequired();//
         
         builder.Entity<Order>().ToTable("Orders");
         builder.Entity<Order>().HasKey(o => o.Id);
