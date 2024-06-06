@@ -3,5 +3,8 @@
   &lt;Or&gt;&#xD;
     &lt;ProjectFile&gt;989F7AD5-10AE-4B47-8085-F271EFB56D0B/f:CustomerUnitTest.cs&lt;/ProjectFile&gt;&#xD;
     &lt;ProjectFile&gt;989F7AD5-10AE-4B47-8085-F271EFB56D0B/f:ProductUnitTest.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;TestAncestor&gt;&#xD;
+      &lt;TestId&gt;xUnit::989F7AD5-10AE-4B47-8085-F271EFB56D0B::net7.0::_2.Domain.ArtisanDomain.Test.ArtisanUnitTest&lt;/TestId&gt;&#xD;
+    &lt;/TestAncestor&gt;&#xD;
   &lt;/Or&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

@@ -11,4 +11,5 @@ public interface IArtisanData
     Task<List<Artisan>> GetAllAsync();
     Task<Artisan> GetByIdAsync(int id);
     Task<Artisan>GetByEmail(string email);
+    Task<Artisan> GetByPhone(long phone);
 }

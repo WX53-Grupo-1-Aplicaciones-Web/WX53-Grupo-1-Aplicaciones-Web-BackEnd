@@ -68,4 +68,9 @@ public class ArtisanMySqlData: IArtisanData
     {
         return await _artisaniaDbContext.Artisans.Where(c => c.Email == email).FirstOrDefaultAsync();
     }
+    
+    public async Task<Artisan> GetByPhone(long phone)
+    {
+        return await _artisaniaDbContext.Artisans.Where(c => c.Phone == phone).FirstOrDefaultAsync();
+    }
 }
