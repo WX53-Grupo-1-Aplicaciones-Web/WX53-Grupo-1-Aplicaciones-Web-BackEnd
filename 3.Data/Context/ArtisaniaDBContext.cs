@@ -18,6 +18,8 @@ public class ArtisaniaDBContext:DbContext
     public DbSet<Artisan> Artisans { get; set; } 
     public DbSet<Product> Products { get; set; } 
     public DbSet<Order> Orders { get; set; }
+    public DbSet<Personalization> Personalizations { get; set; }
+
 
 
 
@@ -57,6 +59,12 @@ public class ArtisaniaDBContext:DbContext
         builder.Entity<Order>().Property(o => o.shipping_date).IsRequired();
         builder.Entity<Order>().Property(o => o.status).IsRequired();
         builder.Entity<Order>().Property(o => o.delivery_address).IsRequired();
+        
+        builder.Entity<Personalization>().ToTable("Personalization");
+        builder.Entity<Personalization>().HasKey(p => p.Id);
+        builder.Entity<Personalization>().Property(p => p.Description).IsRequired();
+        builder.Entity<Personalization>().Property(p => p.AdditionalCost).IsRequired();
+        builder.Entity<Personalization>().Property(p => p.State).IsRequired();
         
     }
 }
