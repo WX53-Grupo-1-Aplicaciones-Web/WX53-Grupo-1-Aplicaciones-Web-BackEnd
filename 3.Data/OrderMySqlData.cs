@@ -36,10 +36,10 @@ public class OrderMySqlData: IOrderData
         using (var transaction = await _artisaniaDbContext.Database.BeginTransactionAsync())
         {
             var OrderToUpdate = _artisaniaDbContext.Orders.Where(o => o.Id == id).FirstOrDefault();
-            OrderToUpdate.request_date = data.request_date;
-            OrderToUpdate.shipping_date = data.shipping_date;
-            OrderToUpdate.delivery_address = data.delivery_address;
-            OrderToUpdate.status = data.status;
+            OrderToUpdate.RequestDate = data.RequestDate;
+            OrderToUpdate.ShippingDate = data.ShippingDate;
+            OrderToUpdate.DeliveryAddress = data.DeliveryAddress;
+            OrderToUpdate.Status = data.Status;
             _artisaniaDbContext.Orders.Update(OrderToUpdate);
             await _artisaniaDbContext.SaveChangesAsync();
             transaction.Commit();

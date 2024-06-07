@@ -4,6 +4,101 @@
         <name>1.API</name>
     </assembly>
     <members>
+        <member name="M:_1.API.Controllers.ArtisanController.GetAsync">
+            <summary>
+            Obtiene todos los artesanos disponibles.
+            </summary>
+            <remarks>
+            Ejemplo:
+            GET api/artisan
+            </remarks>
+            <returns>
+            Una lista de artesanos.
+            </returns>
+            <response code="200">Retorna la lista de artesanos.</response>
+            <response code="404">Si no se encuentran artesanos.</response>
+            <response code="500">Si ocurre un error interno del servidor.</response>
+        </member>
+        <member name="M:_1.API.Controllers.ArtisanController.Get(System.Int32)">
+            <summary>
+            Obtiene un artesano específico por su ID.
+            </summary>
+            <remarks>
+            Ejemplo:
+            GET api/artisan/5
+            </remarks>
+            <param name="id">El ID del artesano a obtener.</param>
+            <returns>
+            El artesano con el ID especificado.
+            </returns>
+            <response code="200">Retorna el artesano solicitado.</response>
+            <response code="404">Si el artesano con el ID especificado no se encuentra.</response>
+            <response code="500">Si ocurre un error interno del servidor.</response>
+        </member>
+        <member name="M:_1.API.Controllers.ArtisanController.PostAsync(_1.API.Request.ArtisanRequest)">
+            <summary>
+            Crea un nuevo artesano.
+            </summary>
+            <remarks>
+            Ejemplo:
+            POST api/artisan
+            
+            Las reglas para la creación de un artesano son las siguientes:
+            - El correo electrónico debe tener un formato válido.
+            - El nombre debe tener entre 2 y 50 caracteres.
+            - El apellido debe tener entre 2 y 50 caracteres.
+            - El correo electrónico no debe estar vinculado con una cuenta existente.
+            - El número de teléfono no debe estar vinculado con una cuenta existente.
+            </remarks>
+            <param name="data">El artesano a crear.</param>
+            <returns>
+            El artesano creado.
+            </returns>
+            <response code="201">Retorna el artesano creado.</response>
+            <response code="400">Si el artesano es nulo, el correo electrónico o el número de teléfono no tienen un formato válido, o el correo electrónico o el número de teléfono están vinculados con una cuenta existente.</response>
+            <response code="500">Si ocurre un error interno del servidor.</response>
+        </member>
+        <member name="M:_1.API.Controllers.ArtisanController.Put(System.Int32,_1.API.Request.ArtisanRequest)">
+             <summary>
+             Actualiza un artesano existente.
+             </summary>
+             <remarks>
+             Ejemplo:
+             PUT api/artisan/5
+            
+             Las reglas para la actualización de un artesano son las siguientes:
+             - El correo electrónico debe tener un formato válido.
+             - El nombre debe tener entre 2 y 50 caracteres.
+             - El apellido debe tener entre 2 y 50 caracteres.
+             - El correo electrónico no debe estar vinculado con una cuenta existente.
+             - El número de teléfono no debe estar vinculado con una cuenta existente.
+             </remarks>
+             <param name="id">El ID del artesano a actualizar.</param>
+             <param name="data">Los nuevos datos del artesano.</param>
+             <returns>
+             El artesano actualizado.
+             </returns>
+             <response code="200">Retorna el artesano actualizado.</response>
+             <response code="400">Si el artesano es nulo, el correo electrónico o el número de teléfono no tienen un formato válido, o el correo electrónico o el número de teléfono están vinculados con una cuenta existente.</response>
+             <response code="404">Si no se encuentra el artesano con el ID especificado.</response>
+             <response code="500">Si ocurre un error interno del servidor.</response>
+        </member>
+        <member name="M:_1.API.Controllers.ArtisanController.Delete(System.Int32)">
+            <summary>
+            Elimina un artesano existente.
+            </summary>
+            <remarks>
+            Ejemplo:
+            DELETE api/artisan/5
+            </remarks>
+            <param name="id">El ID del artesano a eliminar.</param>
+            <returns>
+            Retorna un mensaje de éxito si el artesano fue eliminado correctamente.
+            </returns>
+            <response code="200">Retorna un mensaje de éxito si el artesano fue eliminado correctamente.</response>
+            <response code="404">Si no se encuentra el artesano con el ID especificado.</response>
+            <response code="500">Si ocurre un error interno del servidor.</response>
+        </member>
         <member name="M:_1.API.Controllers.CustomerController.GetAsync">
             <summary>
             Obtiene todos los clientes disponibles.
@@ -88,6 +183,210 @@
             </returns>
             <response code="200">Retorna un mensaje de éxito si el cliente fue marcado como inactivo correctamente.</response>
             <response code="404">Si no se encuentra el cliente con el ID especificado.</response>
+            <response code="500">Si ocurre un error interno del servidor.</response>
+        </member>
+        <member name="M:_1.API.Controllers.OrderController.GetAsync">
+            <summary>
+            Obtiene todas las órdenes disponibles.
+            </summary>
+            <remarks>
+            Ejemplo:
+            GET api/order
+            </remarks>
+            <returns>
+            Una lista de órdenes.
+            </returns>
+            <response code="200">Retorna la lista de órdenes.</response>
+            <response code="404">Si no se encuentran órdenes.</response>
+            <response code="500">Si ocurre un error interno del servidor.</response>
+        </member>
+        <member name="M:_1.API.Controllers.OrderController.Get(System.Int32)">
+            <summary>
+            Obtiene una orden específica por su ID.
+            </summary>
+            <remarks>
+            Ejemplo:
+            GET api/order/5
+            </remarks>
+            <param name="id">El ID de la orden a obtener.</param>
+            <returns>
+            La orden con el ID especificado.
+            </returns>
+            <response code="200">Retorna la orden solicitada.</response>
+            <response code="404">Si la orden con el ID especificado no se encuentra.</response>
+            <response code="500">Si ocurre un error interno del servidor.</response>
+        </member>
+        <member name="M:_1.API.Controllers.OrderController.PostAsync(_1.API.Request.OrderRequest)">
+            <summary>
+            Crea una nueva orden.
+            </summary>
+            <remarks>
+            Ejemplo:
+            POST api/order
+            </remarks>
+            <param name="data">La orden a crear.</param>
+            <returns>
+            La orden creada.
+            </returns>
+            <response code="201">Retorna la orden creada.</response>
+            <response code="400">Si la orden es nula o los datos proporcionados son inválidos.</response>
+            <response code="500">Si ocurre un error interno del servidor.</response>
+        </member>
+        <member name="M:_1.API.Controllers.OrderController.Put(System.Int32,_1.API.Request.OrderRequest)">
+            <summary>
+            Actualiza una orden existente.
+            </summary>
+            <remarks>
+            Ejemplo:
+            PUT api/order/5
+            </remarks>
+            <param name="id">El ID de la orden a actualizar.</param>
+            <param name="data">Los nuevos datos de la orden.</param>
+            <returns>
+            La orden actualizada.
+            </returns>
+            <response code="200">Retorna la orden actualizada.</response>
+            <response code="400">Si la orden es nula o los datos proporcionados son inválidos.</response>
+            <response code="404">Si no se encuentra la orden con el ID especificado.</response>
+            <response code="500">Si ocurre un error interno del servidor.</response>
+        </member>
+        <member name="M:_1.API.Controllers.OrderController.Delete(System.Int32)">
+            <summary>
+            Elimina una orden existente.
+            </summary>
+            <remarks>
+            Ejemplo:
+            DELETE api/order/5
+            </remarks>
+            <param name="id">El ID de la orden a eliminar.</param>
+            <returns>
+            Retorna un mensaje de éxito si la orden fue eliminada correctamente.
+            </returns>
+            <response code="200">Retorna un mensaje de éxito si la orden fue eliminada correctamente.</response>
+            <response code="404">Si no se encuentra la orden con el ID especificado.</response>
+            <response code="500">Si ocurre un error interno del servidor.</response>
+        </member>
+        <member name="M:_1.API.Controllers.PersonalizationController.GetAsync">
+            <summary>
+            Obtiene todas las personalizaciones.
+            </summary>
+            <remarks>
+            Ejemplo:
+            GET api/personalization
+            </remarks>
+            <returns>
+            Una lista de todas las personalizaciones.
+            </returns>
+            <response code="200">Retorna la lista de personalizaciones.</response>
+            <response code="500">Si ocurre un error interno del servidor.</response>
+        </member>
+        <member name="M:_1.API.Controllers.PersonalizationController.Get(System.Int32)">
+            <summary>
+            Obtiene una personalización específica por su ID.
+            </summary>
+            <remarks>
+            Ejemplo:
+            GET api/personalization/5
+            </remarks>
+            <param name="id">El ID de la personalización a obtener.</param>
+            <returns>
+            La personalización con el ID especificado.
+            </returns>
+            <response code="200">Retorna la personalización solicitada.</response>
+            <response code="404">Si la personalización con el ID especificado no se encuentra.</response>
+            <response code="500">Si ocurre un error interno del servidor.</response>
+        </member>
+        <member name="M:_1.API.Controllers.ProductController.GetAsync">
+            <summary>
+            Obtiene todos los productos disponibles.
+            </summary>
+            <remarks>
+            Ejemplo:
+            GET api/product
+            </remarks>
+            <returns>
+            Una lista de productos.
+            </returns>
+            <response code="200">Retorna la lista de productos.</response>
+            <response code="404">Si no se encuentran productos.</response>
+            <response code="500">Si ocurre un error interno del servidor.</response>
+        </member>
+        <member name="M:_1.API.Controllers.ProductController.Get(System.Int32)">
+            <summary>
+            Obtiene un producto específico por su ID.
+            </summary>
+            <remarks>
+            Ejemplo:
+            GET api/product/5
+            </remarks>
+            <param name="id">El ID del producto a obtener.</param>
+            <returns>
+            El producto con el ID especificado.
+            </returns>
+            <response code="200">Retorna el producto solicitado.</response>
+            <response code="404">Si el producto con el ID especificado no se encuentra.</response>
+            <response code="500">Si ocurre un error interno del servidor.</response>
+        </member>
+        <member name="M:_1.API.Controllers.ProductController.PostAsync(_1.API.Request.ProductRequest)">
+            <summary>
+            Crea un nuevo producto.
+            </summary>
+            <remarks>
+            Ejemplo:
+            POST api/product
+            
+            Las reglas para la creación de un producto son las siguientes:
+            - El nombre del producto no puede tener más de 50 caracteres.
+            - El precio unitario del producto debe ser positivo y tener un formato decimal válido (hasta dos decimales).
+            - El stock del producto no puede ser negativo.
+            - La descripción del producto no puede tener más de 300 caracteres.
+            </remarks>
+            <param name="data">El producto a crear.</param>
+            <returns>
+            El producto creado.
+            </returns>
+            <response code="201">Retorna el producto creado.</response>
+            <response code="400">Si el producto es nulo, el nombre es demasiado largo, el precio unitario es negativo o tiene un formato inválido, el stock es negativo, o la descripción es demasiado larga.</response>
+            <response code="500">Si ocurre un error interno del servidor.</response>
+        </member>
+        <member name="M:_1.API.Controllers.ProductController.Put(System.Int32,_1.API.Request.ProductRequest)">
+             <summary>
+             Actualiza un producto existente.
+             </summary>
+             <remarks>
+             Ejemplo:
+             PUT api/product/5
+            
+             Las reglas para la actualización de un producto son las siguientes:
+             - El nombre del producto no puede tener más de 50 caracteres.
+             - El precio unitario del producto debe ser positivo y tener un formato decimal válido (hasta dos decimales).
+             - El stock del producto no puede ser negativo.
+             - La descripción del producto no puede tener más de 300 caracteres.
+             </remarks>
+             <param name="id">El ID del producto a actualizar.</param>
+             <param name="data">Los nuevos datos del producto.</param>
+             <returns>
+             El producto actualizado.
+             </returns>
+             <response code="200">Retorna el producto actualizado.</response>
+             <response code="400">Si el producto es nulo, el nombre es demasiado largo, el precio unitario es negativo o tiene un formato inválido, el stock es negativo, o la descripción es demasiado larga.</response>
+             <response code="404">Si no se encuentra el producto con el ID especificado.</response>
+             <response code="500">Si ocurre un error interno del servidor.</response>
+        </member>
+        <member name="M:_1.API.Controllers.ProductController.Delete(System.Int32)">
+            <summary>
+            Elimina un producto existente.
+            </summary>
+            <remarks>
+            Ejemplo:
+            DELETE api/product/5
+            </remarks>
+            <param name="id">El ID del producto a eliminar.</param>
+            <returns>
+            Retorna un mensaje de éxito si el producto fue eliminado correctamente.
+            </returns>
+            <response code="200">Retorna un mensaje de éxito si el producto fue eliminado correctamente.</response>
+            <response code="404">Si no se encuentra el producto con el ID especificado.</response>
             <response code="500">Si ocurre un error interno del servidor.</response>
         </member>
     </members>

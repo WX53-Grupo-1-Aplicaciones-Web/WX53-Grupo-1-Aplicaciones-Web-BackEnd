@@ -10,7 +10,7 @@ namespace _2.Domain.ArtisanDomain.Test
         {
             // Arrange
             var mockArtisanData = new Mock<IArtisanData>();
-            var invalidLastNameArtisan = new Artisan { Email = "valid@email.com", Name = "John", LastName = "A", Phone = 123456789 }; // Un apellido inválido (menos de 2 caracteres)
+            var invalidLastNameArtisan = new Artisan { Email = "valid@email.com", Name = "John", LastName = "A", Phone = 123456789 }; 
             var artisanDomain = new ArtisanDomain(mockArtisanData.Object);
 
             // Act & Assert

@@ -58,10 +58,10 @@ public class ArtisaniaDBContext:DbContext
         
         builder.Entity<Order>().ToTable("Orders");
         builder.Entity<Order>().HasKey(o => o.Id);
-        builder.Entity<Order>().Property(o => o.request_date).IsRequired();
-        builder.Entity<Order>().Property(o => o.shipping_date).IsRequired();
-        builder.Entity<Order>().Property(o => o.status).IsRequired();
-        builder.Entity<Order>().Property(o => o.delivery_address).IsRequired();
+        builder.Entity<Order>().Property(o => o.RequestDate).IsRequired();
+        builder.Entity<Order>().Property(o => o.ShippingDate).IsRequired();
+        builder.Entity<Order>().Property(o => o.Status).IsRequired();
+        builder.Entity<Order>().Property(o => o.DeliveryAddress).IsRequired();
         
         builder.Entity<Personalization>().ToTable("Personalizations");
         builder.Entity<Personalization>().HasKey(p => p.Id);

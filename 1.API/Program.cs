@@ -23,18 +23,13 @@ builder.Services.AddSwaggerGen(options =>
     {
         Version = "v1",
         Title = "Artisania API",
-        Description = "An ASP.NET Core Web API for managing Artisania's customers,artisans and products.",
-        TermsOfService = new Uri("https://example.com/terms"),
+        Description = "An ASP.NET Core Web API for managing Artisania's customers,artisans, products and orders."+"Web Application: [Artisania's Web App](https://grupo-1-artisania-deployment.web.app)",
         Contact = new OpenApiContact
         {
             Name = "Artisania Landing page startup",
             Url = new Uri("https://wx53-grupo-1-aplicaciones-web.github.io/WX53-Grupo-1-Aplicaciones-Web-LandingPage/")
         },
-        License = new OpenApiLicense
-        {
-            Name = "Example License",
-            Url = new Uri("https://example.com/license")
-        }
+        
     });
     // using System.Reflection;
     var xmlFilename = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";

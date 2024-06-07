@@ -27,7 +27,7 @@ public class ProductDomain : IProductDomain
                 throw new ArgumentException("El precio unitario del producto debe ser positivo.");
             }
             
-            if (data.Unit_Price > 0 && !Regex.IsMatch(data.Unit_Price.ToString(), @"^\d+(\.\d{1,2})?$"))
+            if (data.Unit_Price < 0 || !Regex.IsMatch(data.Unit_Price.ToString(), @"^\d+(\.\d{1,2})?$"))
             {
                 throw new ArgumentException("El precio unitario del producto debe tener un formato decimal válido (hasta dos decimales).");
             }

@@ -36,7 +36,7 @@ public class ProductUnitTest
     {
         // Arrange
         var mockProductData = new Mock<IProductData>();
-        var invalidPriceFormatProduct = new Product {  Name = new string('A', 20),Unit_Price = 1.999 };
+        var invalidPriceFormatProduct = new Product {  Name = new string('A', 20),Unit_Price = 1.999, Stock = 1, Category = "Valid Category", Description = "Valid description", Image = "Valid Image"};
         var productDomain = new ProductDomain.ProductDomain(mockProductData.Object);
 
         // Act & Assert
@@ -80,7 +80,9 @@ public class ProductUnitTest
             Name = "Valid Product", 
             Unit_Price = 10.99, 
             Stock = 100, 
-            Description = "Valid description"
+            Description = "Valid description",
+            Category = "Valid Category", 
+            Image = "Valid Image",
         };
         mockProductData.Setup(data => data.SaveAsync(validProduct)).ReturnsAsync(true);
         var productDomain = new ProductDomain.ProductDomain(mockProductData.Object);
